@@ -1,0 +1,127 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.name{
+  font-size: 30px;
+}
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #0075b9;
+  color: white;
+  padding: 20px;
+}
+
+main {
+  padding: 20px;
+  background-color: white;
+  max-width: 1000px;
+  margin: 20px auto;
+  border-radius: 8px;
+}
+
+section {
+  margin-bottom: 40px;
+}
+
+h2 {
+  color: #000000;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  padding: 5px;
+  margin: 10px 0;
+  background-color: #f1f1f1;
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #0b5499;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #000000;
+  color: white;
+}
+
+.card {
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.1);
+}
+
+.cardProjects {
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.cardPInfo {
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card li:hover{
+  background-color: #0b5499;
+  color: white;
+}
+
+a {
+  background-color: #0b5499;
+  border-radius: 10px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+
+.profilePicture{
+  background-color: #0b5499;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  border-radius: 20px;
+  color: white;
+}
+
+.profileDivision{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.div1 .card{
+  padding: 50px;
+}
+
+.div1 li{
+  padding-right: 30px;
+  padding-left: 30px;
+  margin-bottom: 25.3px;
+}
