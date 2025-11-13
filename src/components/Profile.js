@@ -4,7 +4,6 @@ function Profile() {
   return (
     <section className="card">
       <h2 className='profilePicture'>Profile Picture and banner</h2>
-      <img></img>
       <p className='name'>
         Andrei Ellana
       </p>
@@ -17,3 +16,4 @@ function Profile() {
 }
 
 export default Profile;
+
